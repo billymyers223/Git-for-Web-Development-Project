@@ -83,4 +83,4 @@ Stretch Questions:
     1. What is the difference between an inline element and a block element?
 	block elements cause line breaks while inline elements do not.
    
-	
+Link to CodePen MVP : https://codepen.io/billymyers223/pen/dyWMPZM

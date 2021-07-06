@@ -1,0 +1,86 @@
+    1. What is Semantic HTML? 
+	Semantic HTML can be seen by the user and is interpreted by the browser to display on the page
+    2. What is HTML used for?
+	HTML is the structure of websites, it tells the browser what to display and allows developers to format and create a site.
+    3. What is an attribute and where do we put it? 
+	Attributes are put within tags to describe what to do (alt, href, src, height, & width). 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 tag is used as a main heading on a page and is typically used once.
+    5. Name two tags that have required attributes
+	<img> <a>
+    6. What do we put in the head of our HTML document? 
+	Metadata
+    7. What is an id? 
+	an ID is an attribute used to specify an HTML element
+    8. What elements can I add an id to? 
+	You can add styling to the HTML element with that ID.
+    9. How many times can I use the same id on a page? 
+	Once
+    10. What is a class? 
+	A class is an HTML element
+    11. What elements can I add a class to? 
+	Any CSS elements
+    12. How many times can I use the same class on a page? 
+	As much as you'd like
+    13. How do I get my link to open in a new tab?
+	target= "_blank"
+    14. What is the alt attribute in the image tag used for? 
+	It is used for screen readers to increase site asscesibility
+    15. How do I reference an id?
+	You use a #
+    16. What is the difference between a section and a div
+	A div is a block level element which is used to divide a site and a section defines a section of content on a site.
+    17. What is CSS used for? 
+	css is used for styling an HTML document
+    18. How to we select an element? Example - every h2 on the page
+	h2{Styling goes here}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class is able to be used more than once in HTML which allows you to style a group of tags the same. An ID can only be used once which can help make one element stand out more than others on the page.
+    20. How do we select classes in CSS?
+	.ClassName{}
+    21. How do we select a p element with a single class of “human””?
+	You would do p .human{}
+    22. What is a parent child selector? When would this be useful? 
+	A parent child selector passes all the parent CSS styling down to the child, this is useful when you want to go with one unique stylign rule for that section of your code
+    23. How do you select all links within a div with the class of sidebar?
+	div a .sidebar{code here}
+    24. What is a pseudo selector?
+	A pseudo selector is a keyword added to a selector that specifies a special state
+    25. What do we use the change the spacing between lines?
+	You can change the line-height or add a margin
+    26. What do we use to change the spacing between letters?
+	letter-spacing in CSS
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	using the text-transform rule in CSS
+    28. How do I add a 1px border around my div that is dotted and black?
+	border:1px dotted black;
+    29. How do I select everything on the page? 
+	For CSS to create a class you would do *{Your code here}
+    30. How do I write a comment in CSS?
+	/* comment here */
+    31. How do I find out what file I am in, when I am using the command line? 
+	You can see on the cmd line itself where you are.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	li
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm filename, you are not prompted to make sure you want to delete the file
+    34. Why should I use version control? 
+	Incase something were to go wrong you could just go back to a previous version
+    35. How often should I commit to github?
+	Every major change you make to code that you believe may mess things up if wrong.
+    36. What is the command we would use to push our repo up to github? 
+	git push -u origin your-name
+    37. Walk me through Lambda's git flow. 
+	git clone link
+	cd into repo
+	git checkout -b firstname-lastname
+	code .
+	git add .	
+	git commit -m
+	git push -u origin firstname-lastname
+Stretch Questions:
+
+    1. What is the difference between an inline element and a block element?
+	block elements cause line breaks while inline elements do not.
+   
+Link to CodePen MVP : https://codepen.io/billymyers223/pen/dyWMPZM
